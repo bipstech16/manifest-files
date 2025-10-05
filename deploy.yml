@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app.kubernetes.io/name: argocd-nginx
     app: my-app
   name: my-app
 spec:
